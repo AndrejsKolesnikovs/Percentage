@@ -41,7 +41,7 @@ public class HomeWorkOne {
 
         count = CharMatcher.is('e').countIn("Hello world");
         //Guava dependency
-
+// 123
         Assertions.assertEquals(9991, count, "NOTE: Actual - number of characters or letters in a text.");
     }
 }
