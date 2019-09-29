@@ -1,5 +1,7 @@
 import org.junit.jupiter.api.Test;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class DelfiFirstTest {
@@ -9,5 +11,6 @@ public class DelfiFirstTest {
     WebDriver driver = new ChromeDriver();
     driver.manage().window().maximize();
     driver.get("http://delfi.lv");
+        WebElement header = driver.findElement(By.xpath('//div'))
                 }
 }
