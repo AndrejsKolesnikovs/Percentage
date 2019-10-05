@@ -11,6 +11,5 @@ public class DelfiFirstTest {
     WebDriver driver = new ChromeDriver();
     driver.manage().window().maximize();
     driver.get("http://delfi.lv");
-        WebElement header = driver.findElement(By.xpath('//div'))
                 }
 }
